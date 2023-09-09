@@ -1,0 +1,56 @@
+h1{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+}
+tr:nth-child(2n){
+    background-color: brown;
+    color: white;
+}
+a{
+    display: block;
+    width: 100px;
+}
+a:nth-child(2n+1){
+    background-color: yellowgreen;
+    color: red;
+}
+.divs p::first-letter{
+    background-color: red;
+    color: white;
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
+.mk::after{
+    content: 'hjhkujhkuj';
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    display: inline-block;
+    /* background-image: radial-gradient(circle, red,green,white); */
+    background-image: linear-gradient( to right,red,white,green);
+}
+.jj1{
+    float: left;
+
+}
+.jj2{
+    float: right;
+
+}
+.jj3{
+    color: red;
+
+
+}
+.jj4{
+    clear: both;
+}
